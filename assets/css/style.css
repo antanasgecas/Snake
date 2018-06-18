@@ -1,0 +1,123 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.game {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  padding: 0px;
+  outline-style: solid;
+  outline-color: grey;
+}
+
+tr {
+  margin: 0px;
+  padding: 0px;
+  height: 20px;
+}
+
+th {
+  margin: 0px;
+  padding: 0px;
+  width: 20px;
+}
+
+.body {
+  background-image: url(../images/circle_sm.png);
+  background-size: 100%;
+}
+
+.head {
+
+  background-image: url(../images/snake2.png);
+  background-size: 100%;
+}
+.head_up {
+
+  background-image: url(../images/snake_up.png);
+  background-size: 100%;
+}
+.head_down {
+
+  background-image: url(../images/snake_down.png);
+  background-size: 100%;
+}
+.head_left {
+
+  background-image: url(../images/snake_left.png);
+  background-size: 100%;
+}
+.head_right {
+
+  background-image: url(../images/snake_right.png);
+  background-size: 100%;
+}
+
+#start {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+
+}
+#win {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,255,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+
+}
+#lose {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+
+}
+
+
+.text {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.frog {
+  /* background-color: green; */
+background-image: url(../images/frog.png);
+background-size: 100%;
+}
